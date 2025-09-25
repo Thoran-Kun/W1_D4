@@ -4,14 +4,14 @@ header {
   background-color: rgb(29, 126, 205);
   width: 50%;
   margin: 0 auto;
-  box-shadow: 0px 4px 4px 4px #666;
+  box-shadow: 0px 2px 4px 2px #666;
 }
 
 main {
   background-color: white;
   width: 50%;
   margin: 0 auto;
-  border: 1px solid;
+  box-shadow: 0px 2px 2px 2px grey;
   padding-left: auto;
   padding-right: auto;
 }
@@ -25,6 +25,7 @@ footer {
 }
 
 body {
+  font-family: "Poppins", Arial;
   background-image: url(../img/sfondo.png);
   background-repeat: repeat-y;
 }
@@ -51,9 +52,100 @@ header li a {
 
 /* MAIN */
 
+main {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+main h1 {
+  font-size: 1.7em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+main p:nth-of-type(1) {
+  color: #666;
+  padding-bottom: 20px;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+main p:nth-of-type(2) {
+  padding-bottom: 20px;
+}
+
+main strong {
+  color: rgb(208, 36, 142);
+}
+
+main p:nth-of-type(3) {
+  padding-bottom: 20px;
+}
+
+main ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+main h2 {
+  padding-top: 20px;
+}
+
+main p:nth-of-type(4) {
+  padding-bottom: 20px;
+}
+
+main ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+main p:nth-of-type(5) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+caption {
+  font-size: 1.3em;
+  text-align: center;
+}
+
 /* TABELLE */
+
+table {
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  color: white;
+  border: 1px solid #efecec;
+  padding: 15px;
+  background-color: rgb(29, 126, 205);
+}
+
+tbody tr:nth-of-type(2) {
+  background-color: antiquewhite;
+  border-top: 1px solid rgb(rgb(192, 118, 118), green, blue);
+  border-bottom: rgb(rgb(192, 118, 118), green, blue);
+}
+
+tbody tr:nth-of-type(4) {
+  background-color: antiquewhite;
+  border-top: 1px solid rgb(rgb(192, 118, 118), green, blue);
+  border-bottom: rgb(rgb(192, 118, 118), green, blue);
+}
+
+tr td {
+  border-top: 1px solid rgb(246, 97, 97);
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+
+main p:nth-of-type(6) {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 
 /* FORM */
 
